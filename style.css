@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232830;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px;
+}
+
+h5 {
+  color: #fff;
+  font-family: poppins;
+  font-size: 30px;
+}
+
+.header-items-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-items {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-family: poppins;
+  font-size: 25px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.logo {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 52%;
+  transform: translateX(-52%);
+}
+
+.title {
+  color: #fff;
+  font-family: poppins;
+  font-size: 50px;
+}
+
+.subtitle {
+  color: #fff;
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 30px;
+  list-style: none;
+  color: #909090;
+}
+
+.category {
+  font-family: poppins;
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.category-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 70%;
+  color: #fff;
+  font-family: poppins;
+  font-size: 15px;
+  background-color: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+tr {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+td {
+  background-color: #fff;
+  margin-inline: 2%;
+  margin-bottom: 2%;
+  width: 80%;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article-image {
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.article-title {
+  color: #232830;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.article-discription {
+  color: #232830;
+  font-family: poppins;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.date-and-category {
+  color: #909090;
+  font-family: poppins;
+  font-size: 15px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+  color: #fff;
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.page-nav-item {
+  display: block;
+  color: #fff;
+  font-family: poppins;
+  font-size: 25px;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 5px;
+  border-top: 5px transparent solid;
+  box-sizing: content-box;
+}
+
+.page-nav-item:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #232830;
+  border-top: 5px rgb(255, 128, 0) solid;
+  transition: all 0.2s ease-in-out;
+}
+
+.sign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-inline: 10%;
+  color: #fff;
+  font-family: poppins;
+  font-size: 25px;
+}
+
+a {
+  color: #fff;
+  background-color: rgba(0, 191, 255, 0.529);
+  border: 1px black solid;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-inline: 5%;
+  border: 0;
+  border-top: 5px solid #575757;
+}
